@@ -1,0 +1,4 @@
+FROM PYTHON : 3
+COPY DB_Connection.py, DB_Details.py
+RUN Python3 DB_Connection.py
+CMD ["Python","DB_Connection")
